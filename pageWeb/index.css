@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+}
+
+#Titre{
+    text-align: center;
+}
+#h1 {
+    background-image: url(img/paysage.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    font-size: 4vw;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 100px;
+    background-attachment: fixed;
+}
+
+h2{
+    text-align: center;
+}
+#Paysage{ 
+    background-image: linear-gradient( 
+180deg
+ , rgba(255, 240, 25, 0.11), rgba(255, 240, 25, 0.11)),url(img/paysage.jpg);
+
+    background-size: auto ,cover;
+    background-position: 0px 0px, 50% 50%;
+    background-attachment: scroll, fixed;
+    height: 200px;
+    width: 100%;
+    padding: 60px 0;
+}
+
+#Presentation{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 500px;
+}
+
+#Presentation-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+#behourd{
+    background-image: linear-gradient( 
+180deg
+ , rgba(255, 240, 25, 0.11), rgba(255, 240, 25, 0.11)),url(img/behourd.png);
+
+    background-size: auto ,cover;
+    background-position: 0px 0px, 50% 50%;
+    background-attachment: scroll, fixed;
+    height: 200px;
+    width: 100%;
+    padding: 60px 0;
+}
+
+#behourd-descript{
+    display: flex;
+    height: 500px;
+    font-size: 20px;
+}
+
+#equipement{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 250px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#arme{
+    text-align: center;
+    width: 200px;
+}
+
+#armure{
+    text-align: center;
+    width: 200px;
+}
+
+#App{
+    margin-top: 20px;
+    background-image: linear-gradient( 
+        180deg
+         , rgba(255, 240, 25, 0.11), rgba(255, 240, 25, 0.11)),url(img/app.jpg);
+        
+            background-size: auto ,cover;
+            background-position: 0px 0px, 50% 50%;
+            background-attachment: scroll, fixed;
+            height: 200px;
+            width: 100%;
+            padding: 60px 0;
+}
+
+#application{
+    display: flex;
+    margin: 20px;
+    font-size: 20px;
+    height: 500px;
+}
